@@ -8,21 +8,22 @@
 
  header {
   display: flex;
-  align-items: space-evenly;
+  align-items: flex-end;
   justify-content:space-around;
   padding-top: 15px;
   background-color: #1F2937;
   align-items: flex-end;
  }
- header div {
+ header nav {
   padding-left: 50px
  }
- header div a {
+ header nav a {
   text-decoration: none;
   padding-right: 15px;
   color: white;
   font-size: 18px;
-  font-weight: 950;
+  font-weight: 900;
+  font-family: 'Roboto';
  }
 #logo {
   font-family: roblox;
@@ -49,14 +50,14 @@ main section {
 main section h1 {
   font-size: 48px;
   color: #F9FAF8;
-  font-weight: 900;
+  font-weight: extra-bold;
 }
 main section p {
   font-size: 18px;
   color: #E5E7EB;
 }
 main section button {
-  padding: 7px 28px;
+  padding: 7px 35px;
   border-radius: 10px;
   margin-top: 10px;
   background-color: #3882F6;
@@ -67,4 +68,71 @@ main img {
   width: 500px;
   height: 250px;
   padding-left: 30px;
+}
+.section-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 485px;
+}
+.section-2 h2 {
+  padding-top: 50px;
+  color: 36px;
+  font-weight: 900;
+}
+.section-2 div {
+  width: 150px;
+  height: 150px;
+  gap: 40px;
+}
+.box {
+  border:5px solid #3882F6;
+  width: 150px;
+  height: 150px;
+  border-radius: 10px;
+}
+.wrapper {
+  padding-bottom: 200px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.wrapper div p {
+  text-align: center;
+  padding-top: 5px;
+  padding-left: 10px;
+}
+.section-3 {
+  height: 430px;
+  width: 100%;
+  background-color: #E5E7EB;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.section-3 div {
+  width: 800px;
+  display: flex;
+
+}
+.section-3 div p {
+  font-size: 36px;
+}
+.quote {
+  font-family: "Roboto";
+  font-weight: bold;
+  font-size: 25px;
+  padding-left: 710px;
+}
+footer {
+  width: 100%;
+  height: 100px;
+  background-color: #1F2937;
+  color:#E5E7EB;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
