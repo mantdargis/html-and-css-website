@@ -37,12 +37,10 @@ main {
   justify-content: center;
   flex-direction: column;
 }
-section {
-  height: 500px;
-  width: 100%;
-}
 
 .section-1 {
+  height: 500px;
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
