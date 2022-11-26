@@ -29,15 +29,6 @@ header nav ul li a {
   color: #E5E7EB;
 }
 /* Header end */
-
-/* Main start */
-main {
-  display: flex;
-  align-items:center;
-  justify-content: center;
-  flex-direction: column;
-}
-
 .section-1 {
   height: 500px;
   width: 100%;
