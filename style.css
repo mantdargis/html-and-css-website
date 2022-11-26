@@ -149,11 +149,19 @@ h2 {
   margin-right: 35px;
   border: 2px solid white;
 }
+.section-4 .wrapper article {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-left: 20px;
+  border: 1px solid red;
+}
 .section-4 .wrapper div {
   display: flex;
   justify-content: center;
   flex-direction: column;
   margin-left: 20px;
+  border: 1px solid red;
 }
 .section-4 .wrapper h3 {
   font-size: 24px;
