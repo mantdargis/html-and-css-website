@@ -119,6 +119,7 @@ h2 {
 .section-2 p {
   font-size: 36px;
   font-weight: 300;
+  font-style: italic;
   width: 800px;
   color: #1f1f1f;
 }
