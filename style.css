@@ -149,7 +149,7 @@ h2 {
   margin-right: 35px;
   border: 2px solid white;
 }
-.section-4 .wrapper article {
+.section-4 .wrapper div {
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -163,6 +163,7 @@ h2 {
   font-size: 18px;
   color: white;
 }
+
 
 footer {
   background-color: #1F2937;
